@@ -29,6 +29,7 @@ Here are our old potential research questions, in case something needs to be adj
 ## **Additional datasets :**
 
 Wikidata: get the speakers attribute from the file provided along with Quotebank
+
 Cambridge Dictionary: want to extract the complexity value (A1-C2) for all the words within the quote
 
 ## **Methods :**
