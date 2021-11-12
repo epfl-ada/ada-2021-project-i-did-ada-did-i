@@ -11,9 +11,9 @@ How do different news outlets choose the quotes they use, looking at quote lengt
 
 This is a broad research question that will give us information on a multitude of websites. To show the relevance of this question, we thought of interesting ways to analyze the data it will generate. The general idea is to group websites according to different factors (ie. political views, target age range, age of the news outlet etc.) and see if correlations emerge in the way they quote. Here is a tentative and non-exhaustive question list we would like to look at:
 
-Does the quotation style vary over time (for the whole dataset or subsets)? We could for example think that quotes are generally becoming shorter in news sites to adapt to new medias (ie twitter) being very concise
-Is there a significant difference in the way republican and Democrat leaning news outlets quote (looking at predefined news outlets) ?
-We could look at clustering for all the quote parameters and for each parameter separately.
+* Does the quotation style vary over time (for the whole dataset or subsets)? We could for example think that quotes are generally becoming shorter in news sites to adapt to new medias (ie twitter) being very concise
+* Is there a significant difference in the way republican and Democrat leaning news outlets quote (looking at predefined news outlets) ?
+** We could look at clustering for all the quote parameters and for each parameter separately.
 
 Additionally, we would like to give our data the opportunity to shine by itself. Instead of looking for a correlation according to predetermined grouping of news sources, we’ll also cluster them according to the quote parameters we mentioned and then try to interpret the results. This will allow new, potentially unexpected, proximity between websites to emerge from the data. Finding known grouping of news sites would serve as a validation of this process.
 
@@ -40,15 +40,22 @@ We’ll focus most of our analysis on quotes that have a speaker with a unique Q
 
 ## **Tentative timeline :**
 Milestone 2: Data exploration, formulation of data (pre)processing pipeline and most of data preprocessing
+
 Until 26/11: Solving homework 2
+
 Week of the 29/11: Finishing data preprocessing: scaling up the pipeline described in methods
+
 Week of the 06/12: SAINT NICOLAS: run the analysis and have a first draft of the website
+
 Week of the 13/12: Finish the analysis and the data story
 
 
 ## **Team Organization**
 
 Iris: preliminary data analysis, data preprocessing, website
+
 Théo: ReadMe, data story creation, data visualisation
+
 Quentin: Cambridge and wikidata data extraction, website
+
 Jocelyn: Data exploration, grouping quotes by news source, positivity analysis (nltk)
