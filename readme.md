@@ -34,8 +34,6 @@ Cambridge Dictionary: want to extract the complexity value (A1-C2) for all the w
 
 ## **Methods :**
 
-First we get each speaker’s vocabulary (series of words) and assign an importance score to each word with TF-IDF/look and assess its complexity with Cambridge dictionary dataset to dismiss non-useful words. Then we use wikidata to get data on the speakers to classify them by job title (+ education level, area of interest etc). We create a specific vocabulary for each job title by looking at correlation. Each category will have a set of words associated with it (potentially weighted) and words can be in multiple categories.
-
 ### Data exploration
 
 * Number of quotes per speaker -> keep only those of speakers with at least X quotes?
