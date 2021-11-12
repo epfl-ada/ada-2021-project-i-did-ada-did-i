@@ -29,7 +29,7 @@ Here are our old potential research questions, in case something needs to be adj
 
 ## **Additional datasets :**
 
-**Wikidata**: get the speaker’s QID (warning, can have multiple QIDs) from the file provided along with Quotebank and then extract speaker data. We have not decided yet whether to use the data dump or wikidata’s API
+**Wikidata**: get the speaker’s QID (warning, can have multiple QIDs) from the file provided along with Quotebank and then extract speaker data. We have not decided yet whether to use the data dump or wikidata’s API 
 
 **Cambridge Dictionary**: want to extract the CEFR word level (A1-C2) for all the words within the quote. The API is not open access, so we are using web page scraping. Not every word has a rating, we’ll use stemming and lemmatization to mitigate this problem (plural and conjugated forms do not have CEFR level). Also we might have to lower the request rate not to be taken for a bot, we are not sure of the possible rate of request
 
