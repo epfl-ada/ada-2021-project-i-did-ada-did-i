@@ -7,7 +7,7 @@ Using the Quotebank dataset, we were initially interested in how different socia
 ## **Research Questions :**
 
 Our main research question is:
-**How do different news outlets choose the quotes they use, looking at quote length, complexity of words, positivity and speaker information such as job title, education and gender. **
+__How do different news outlets choose the quotes they use, looking at quote length, complexity of words, positivity and speaker information such as job title, education and gender.__
 
 This is a broad research question that will give us information on a multitude of websites. To show the relevance of this question, we thought of interesting ways to analyze the data it will generate. The general idea is to group websites according to different factors (ie. political views, target age range, age of the news outlet etc.) and see if correlations emerge in the way they quote. Here is a tentative and non-exhaustive question list we would like to look at:
 
