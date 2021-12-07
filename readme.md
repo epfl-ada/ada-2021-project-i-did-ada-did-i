@@ -58,3 +58,42 @@ Théo: Readme, data story creation, data visualization
 Quentin: Cambridge and Wikidata data extraction, website
 
 Jocelyn: Data exploration, grouping quotes by news source, positivity analysis (nltk)
+
+
+ ## **Analysis Pipeline**
+ 1. Analysis of quotes per year getting averages for length, sentiment and positivity (Nationality=US, Year_by_year=1)
+     a) All websites together: has the overall quoting style changed between 2015 and 2020?
+         --> Do a graph over time, plotting average of all 3 parameters (separately or on same graph if it's doable to add multiple y axis label
+         
+     b) Grouping for political orientation of the news site: Is there a difference in the quoting style of left&right-leaning websites and has that difference evolved between 2015 and 2020? 
+         --> 1 graph per parameter, do the graphs over time showing the averages for the 2 categories (left/right) in different colors (overlapping barplot, similar to homeworks)
+         --> Look at what looks better, merging (left=left+center-left) or using only the extremes (left=left)
+         
+     c) Compare political orientation of speakers (%democrat,republican, neutral) in websites of different political orientation and it's evolution over time: Do left websites quote left speakers more, and vise versa (correlation) ? Are left or right leaning websites more prone to equally quoting speakers from all political orientation?   
+         --> Maybe first do political orientation of speakers independent of website orientation (just to see if overall more democrat or republican are quoted)
+         --> Graphs over time of % of speakers's political leaning (1 graph per website political orientation): Lines of different color for democrat speakers, republican and neutral in each graph (might remove neutral is we want, and readjust % so that republican + democrat = 100%)
+         
+       
+         
+ 2. Compare left, right and center website by taking only a few manually selected high traffic websites (because way more center-left), and pooling all the years. 
+     a) Compare length, sentiment and positivity: left more positive and right more negative?
+         --> Repeating what we did earlier but just to check that our selection of website didn't fuck things up 
+         --> Do a graph
+     b) Look at impact of the website's political orientation on how they report on speakers based on the speakers' political orientation: Will a left website take shorter and more negative quotes for right speakers and vice versa?
+         --> graph?
+         
+ 3. All years pooled
+     a) Grouping by factual reporting (factual_reporting): Do websites with higher factual reporting rating use longer and more neutral quotes?
+         --> Barplot, x axis: factual reporting , y axis = average for length/sentiment/positivity (so do 3 graphs I guess)
+     b) 
+     
+ 
+ 
+ 
+            
+ 4. Compare websites by factual reporting
+     b) Compare political orientation of speakers with factual reporting of the website (does higher factual reporting means they have more quotes from
+     
+     
+       DO ON ALL THE QUOTES --> USELESS TO DO BY YEAR CAUSE THE FACTUAL REPORTING RATING DOESN'T CHANGE
+     
