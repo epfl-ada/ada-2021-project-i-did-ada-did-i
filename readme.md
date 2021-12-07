@@ -62,6 +62,7 @@ Jocelyn: Data exploration, grouping quotes by news source, positivity analysis (
 
  ## **Analysis Pipeline**
  1. Analysis of quotes per year getting averages for length, sentiment and positivity (Nationality=US, Year_by_year=1)
+ 
      a) All websites together: has the overall quoting style changed between 2015 and 2020?
          --> Do a graph over time, plotting average of all 3 parameters (separately or on same graph if it's doable to add multiple y axis label
          
@@ -76,24 +77,25 @@ Jocelyn: Data exploration, grouping quotes by news source, positivity analysis (
        
          
  2. Compare left, right and center website by taking only a few manually selected high traffic websites (because way more center-left), and pooling all the years. 
+     
      a) Compare length, sentiment and positivity: left more positive and right more negative?
          --> Repeating what we did earlier but just to check that our selection of website didn't fuck things up 
          --> Do a graph
+     
      b) Look at impact of the website's political orientation on how they report on speakers based on the speakers' political orientation: Will a left website take shorter and more negative quotes for right speakers and vice versa?
          --> graph?
          
  3. All years pooled
+     
      a) Grouping by factual reporting (factual_reporting): Do websites with higher factual reporting rating use longer and more neutral quotes?
          --> Barplot, x axis: factual reporting , y axis = average for length/sentiment/positivity (so do 3 graphs I guess)
-     b) 
-     
- 
- 
- 
-            
- 4. Compare websites by factual reporting
-     b) Compare political orientation of speakers with factual reporting of the website (does higher factual reporting means they have more quotes from
-     
-     
-       DO ON ALL THE QUOTES --> USELESS TO DO BY YEAR CAUSE THE FACTUAL REPORTING RATING DOESN'T CHANGE
+         
+     b) Correlation of factual reporting and political leaning of websites: Are right/left leaning websites more factualy accurate?
+         --> graph: x=website political leaning, y=factual_reporting
+         
+     c) Correlation between factual reporting and websites ratio of speakers from their own orientation and from the oposite orientation: Are websites that quote more speakers from opposite political orientation more factually accurate? (can this be used as an indicator of factual accuracy?)
+         --> Graph: nuage de poitn ou qqch du genre x= ratio of speakers (same political orientation as the journal)/(different political orientation as journal) continuous axis from 0 to 100%, y = factual reporting (categorical, ordered)
+             (on pourrait mettre les websites avec différentes orientation politiques de différentes couleurs
+             
+     d) PCA?
      
