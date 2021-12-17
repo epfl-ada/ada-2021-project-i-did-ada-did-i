@@ -46,9 +46,9 @@ Additionally, we would like to give our data the opportunity to shine by itself.
     
  3. Comparing factual reporting of different websites and correlation with length and sentiment
  
-    a) Grouping by factual reporting (factual_reporting): Do websites with higher factual reporting rating use shorter and more neutral quotes?
+    a) Grouping by factual reporting (factual_reporting): Do websites with higher factual reporting rating use longer and more neutral quotes?
          
-     b) Correlation of factual reporting and degree of political leaning of websites: Are more central leaning news oulets more factually accurate than right/left leaning website?
+    b) Correlation of factual reporting and degree of political leaning of websites: Are more central leaning news oulets more factually accurate than right/left leaning website?
         
 4. PCA/clustering
 
@@ -60,9 +60,10 @@ Additionally, we would like to give our data the opportunity to shine by itself.
 
 **Iris**: Preliminary data analysis, data preprocessing, website creation (most of sections B, C and website)
 
-**Quentin**: Additional data preprocessing, data computation (part of sections C and D), notebook formatting
-
+**Quentin**: Additional data preprocessing, data computation, notebook formatting (part of sections C and D)
+ 
 **Jocelyn**: Data visualisation, help on data computation (most of section D and E)
 
 **Théo**: Design of the sutdy (choice of visualisations and website layout), graph analysis, data story creation, readme (mainly section E and website)
      
+*Github commits are not representative of the work of each team member, as all the work was done on a google colab.
