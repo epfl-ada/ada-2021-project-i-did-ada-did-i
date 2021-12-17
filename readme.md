@@ -2,6 +2,7 @@
 
 ## Links to resources
 **Website**: https://naevyys.github.io/Little-quotes-story/
+
 **Google Drive containing files**: https://drive.google.com/drive/u/0/folders/11yDMWMrmvY3E3brx1rw3JUCIXX40vjGt 
 
 ## **Abstract :** 
