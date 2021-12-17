@@ -1,5 +1,9 @@
  # ADA Project - News source quoting style
 
+## Links to resources
+**Website**: https://naevyys.github.io/Little-quotes-story/
+**Google Drive containing files**: https://drive.google.com/drive/u/0/folders/11yDMWMrmvY3E3brx1rw3JUCIXX40vjGt 
+
 ## **Abstract :** 
 Using the Quotebank dataset, we were initially interested in how different social factors influence the language used by people when talking to the press. However, we reasoned that these quotes, although coming from their original speaker, are not necessarily representative of the speakers themselves, but rather of the news source using them. Indeed, it is the news source that chooses how, and whether, to quote someone. For instance, two different news outlets could quote the same speech very differently, one quoting the long flowery passages and the other going for punchy snippets. Therefore the question we would like to answer is: How do different news outlets choose the quotes they use, looking at quote length, sentiment analysis (polarity score) and political party of the speaker. 
 
