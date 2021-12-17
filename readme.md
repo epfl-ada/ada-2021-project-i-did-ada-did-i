@@ -14,8 +14,6 @@ This is a broad research question that will give us information on a multitude o
 * Does the quotation style vary over time (for the whole dataset or subsets)? We could for example think that quotes are generally becoming shorter in news sites to adapt to new media (i.e. Twitter) being very concise. 
 * Is there a significant difference in the way Republican and Democrat-leaning news outlets quote (looking at predefined news outlets)? We could look at clustering for all the quote parameters and each parameter separately.
 
-Additionally, we would like to give our data the opportunity to shine by itself. Instead of looking for a correlation according to a predetermined grouping of news sources, we’ll also cluster them according to the quote parameters we mentioned and then try to interpret the results. This will allow new, potentially unexpected, proximity between websites to emerge from the data. Finding a known grouping of news sites would serve as a validation of this process.
-
 ## **Additional datasets and sources of information :**
 
 **[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)**: get the speaker’s QID (warning, can have multiple QIDs) from the file provided along with Quotebank and then extract speaker data.
